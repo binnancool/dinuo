@@ -301,7 +301,8 @@ body {
 }
 
 .c-nav {
-    font-size: 19px;
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
     line-height: 1.5;
     color: #fff;
     margin: 59px 0 0 515px
@@ -330,7 +331,7 @@ body {
 }
 
 .c-nav li.active, .c-nav li.hover {
-    border-bottom: 3px solid #4bcfc0
+    border-bottom: 3px solid #feba01
 }
 
 .c-nav li.active a, .c-nav li.hover a {
