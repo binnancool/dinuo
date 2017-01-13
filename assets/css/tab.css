@@ -1,0 +1,16 @@
+.c-detail-content .c-detail-content-title span
+{
+    text-align: left;
+    text-align-last:left;
+    -moz-text-align-last:left;
+}
+.c-detail-content-lightbox
+{
+    text-align-last:justify;
+    -moz-text-align-last:justify;
+}
+.blueimp-gallery
+{
+    text-align-last:center;
+    -moz-text-align-last:center;
+}

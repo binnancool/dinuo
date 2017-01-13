@@ -1,0 +1,1336 @@
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden], template {
+    display: none
+}
+
+a {
+    background: transparent
+}
+
+a:active, a:hover {
+    outline: 0
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b, strong {
+    font-weight: 700
+}
+
+dfn {
+    font-style: italic
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.5em
+}
+
+sub {
+    bottom: -.25em
+}
+
+img {
+    border: 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0
+}
+
+pre {
+    overflow: auto
+}
+
+code, kbd, pre, samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+button {
+    overflow: visible
+}
+
+button, select {
+    text-transform: none
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled], html input[disabled] {
+    cursor: default
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input {
+    line-height: normal
+}
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto
+}
+
+optgroup {
+    font-weight: 700
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td, th {
+    padding: 0
+}
+
+li, ol, ul {
+    margin: 0;
+    padding: 0
+}
+
+li {
+    list-style: none
+}
+
+p {
+    margin: 0
+}
+
+a {
+    outline: 0
+}
+
+body, html {
+    height: 100%;
+    min-height: 820px;
+    font-size: 14px
+}
+
+body {
+    position: relative;
+    background: #000 url(../images/bg-1.jpg) 50% no-repeat;
+    background-size: auto 100%;
+    font-family: STHeiti, Microsoft YaHei, SimSun, arial
+}
+
+@font-face {
+    font-family: c-icon;
+    src: url('../fonts/font_m7gx2nuum7f4j9k9.eot');
+    src: url('../fonts/font_m7gx2nuum7f4j9k9.eot?#iefix') format('embedded-opentype'), url('../fonts/font_m7gx2nuum7f4j9k9.woff') format('woff'), url('../fonts/font_m7gx2nuum7f4j9k9.ttf') format('truetype'), url('../fonts/font_m7gx2nuum7f4j9k9.svg#iconfont') format('svg')
+}
+
+.c-icon {
+    font-family: c-icon;
+    cursor: default
+}
+
+.c-content, .c-foot, .c-head, .c-head-glass {
+    position: absolute;
+    width: 100%;
+    min-width: 1190px
+}
+
+.c-wrapper {
+    width: 1190px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.c-head {
+    height: 122px;
+    z-index: 99;
+    border-bottom: 1px solid #ead4cf;
+    border-bottom-color: hsla(0, 0%, 100%, .2);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2)
+}
+
+.c-content {
+    height: 533px;
+    top: 50%;
+    margin-top: -252px
+}
+
+.c-content-wrapper {
+    position: relative;
+    height: 100%
+}
+
+.c-foot {
+    bottom: 0;
+    height: 120px;
+    border-top: 3px solid #07c7b2;
+    background: #000;
+    background: rgba(0, 0, 0, .56)
+}
+
+.c-foot .c-wrapper {
+    overflow: visible
+}
+
+.c-head-glass {
+    height: 127px;
+    background: inherit;
+    background-attachment: fixed;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=4, MakeShadow=false)
+}
+
+@media screen and (max-height: 820px) {
+    .c-head-glass {
+        background-attachment: scroll;
+        background-position: center 0;
+        background-size: auto 820px
+    }
+}
+
+.c-logo {
+    float: left;
+    margin: 39px 0 32px;
+    overflow: hidden
+}
+
+.c-logo, .c-logo a {
+    width: 238px;
+    height: 53px
+}
+
+.c-logo a {
+    display: block;
+    background: url(../images/logo-1.png) no-repeat
+}
+
+.c-nav {
+    font-size: 19px;
+    line-height: 1.5;
+    color: #fff;
+    margin: 59px 0 0 515px
+}
+
+.c-nav ul {
+    overflow: hidden
+}
+
+.c-nav a {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 2px rgba(0, 0, 0, .25);
+    -webkit-transition: text-shadow .3s;
+    transition: text-shadow .3s
+}
+
+.c-nav li {
+    float: left;
+    margin: 0 31px
+}
+
+.c-nav li > a {
+    display: block;
+    padding-bottom: 33px
+}
+
+.c-nav li.active, .c-nav li.hover {
+    border-bottom: 3px solid #4bcfc0
+}
+
+.c-nav li.active a, .c-nav li.hover a {
+    text-shadow: none
+}
+
+.c-nav li .c-nav-2nd {
+    position: absolute;
+    top: 123px;
+    left: 0;
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+    background: #666;
+    background: rgba(0, 0, 0, .4)
+}
+
+.c-nav li .c-nav-2nd span {
+    position: relative;
+    left: 240px
+}
+
+.c-nav li:nth-child(1) .c-nav-2nd span {
+    left: 40px
+}
+
+.c-nav li:nth-child(2) .c-nav-2nd span {
+    left: 140px
+}
+
+.c-nav li:nth-child(3) .c-nav-2nd span {
+    left: 240px
+}
+
+.c-nav li:nth-child(4) .c-nav-2nd span {
+    left: 340px
+}
+
+.c-nav li:nth-child(5) .c-nav-2nd span {
+    left: 440px
+}
+
+.c-nav li .c-nav-2nd a {
+    color: hsla(0, 0%, 100%, .8);
+    margin: 0 10px
+}
+
+.c-nav li .c-nav-2nd a.hover, .c-nav li .c-nav-2nd a:hover {
+    color: #fff;
+    font-weight: 700
+}
+
+.c-nav li .c-nav-2nd {
+    -webkit-transition: opacity .3s, visibility .3s, -webkit-transform .3s;
+    transition: opacity .3s, visibility .3s, -webkit-transform .3s;
+    transition: opacity .3s, transform .3s, visibility .3s;
+    transition: opacity .3s, transform .3s, visibility .3s, -webkit-transform .3s;
+    opacity: 0;
+    -webkit-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-transform: scaleY(0);
+    -ms-transform: scaleY(0);
+    transform: scaleY(0);
+    visibility: hidden
+}
+
+.c-nav li.hover .c-nav-2nd {
+    opacity: 1;
+    -webkit-transform: scaleY(1);
+    -ms-transform: scaleY(1);
+    transform: scaleY(1);
+    visibility: visible
+}
+
+.c-guide {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 16px;
+    color: #fff
+}
+
+.c-guide a {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    line-height: 27px;
+    padding: 0 16px;
+    margin: 0 1px;
+    background: #07c7b2;
+    border-radius: 0 0 4px 4px;
+    -webkit-transition: background .3s;
+    transition: background .3s
+}
+
+.c-guide a:hover {
+    background: #00ab98
+}
+
+.c-guide .c-icon {
+    margin-right: 4px
+}
+
+.c-guide .c-guide-qrcode {
+    position: absolute;
+    top: 33px;
+    right: -3px;
+    width: 100px;
+    padding-top: 100px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #676767;
+    text-align: center;
+    border-radius: 4px;
+    border: 3px solid #fff;
+    background: #fff url(../images/qrcode-f77dc0ec.png) 0 0 no-repeat;
+    cursor: default;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: translate3d(0, -5%, 0);
+    transform: translate3d(0, -5%, 0);
+    -webkit-transition: opacity .3s, visibility .3s, -webkit-transform .3s;
+    transition: opacity .3s, visibility .3s, -webkit-transform .3s;
+    transition: opacity .3s, transform .3s, visibility .3s;
+    transition: opacity .3s, transform .3s, visibility .3s, -webkit-transform .3s
+}
+
+.c-guide .c-guide-qrcode:before {
+    content: '';
+    position: absolute;
+    top: -13px;
+    left: 50%;
+    margin-left: -10px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff
+}
+
+.c-guide a.c-guide-show-qrcode:hover .c-guide-qrcode {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+}
+
+.c-copy, .c-link {
+    color: #fff;
+    font-size: 14px
+}
+
+.c-copy a, .c-link a {
+    color: #fff;
+    text-decoration: none
+}
+
+.c-copy a:hover, .c-link a:hover {
+    text-decoration: underline
+}
+
+.c-copy {
+    margin-top: 16px;
+    line-height: 30px;
+    float: left
+}
+
+.c-link {
+    margin: 26px 15px 0 0;
+    text-align: right;
+    float: right
+}
+
+.c-link .c-media span {
+    position: relative;
+    font-size: 41px;
+    line-height: 41px;
+    margin-left: 21px;
+    cursor: pointer
+}
+
+.c-link .c-media span:hover {
+    -webkit-transition: color .3s;
+    transition: color .3s;
+    color: #07c7b2
+}
+
+.c-link .c-media .c-media-qrcode {
+    position: absolute;
+    bottom: 50px;
+    left: -36px;
+    z-index: 99;
+    width: 100px;
+    padding-top: 100px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #676767;
+    text-align: center;
+    border-radius: 4px;
+    border: 6px solid #fff;
+    background: #fff url(../images/qrcode-f77dc0ec.png) 0 0 no-repeat;
+    cursor: default;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transform: translate3d(0, 5%, 0);
+    transform: translate3d(0, 5%, 0);
+    -webkit-transition: opacity .3s, visibility .3s, -webkit-transform .3s;
+    transition: opacity .3s, visibility .3s, -webkit-transform .3s;
+    transition: opacity .3s, transform .3s, visibility .3s;
+    transition: opacity .3s, transform .3s, visibility .3s, -webkit-transform .3s
+}
+
+.c-link .c-media .c-media-qrcode.c-media-qrcode-alipay {
+    background-position: -100px 0
+}
+
+.c-link .c-media .c-media-qrcode.c-media-qrcode-weibo {
+    background-position: -200px 0
+}
+
+.c-link .c-media .c-media-qrcode.c-media-qrcode-wechat {
+    background-position: -300px 0
+}
+
+.c-link .c-media .c-media-qrcode:after {
+    content: '';
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    margin-left: -10px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff
+}
+
+.c-link .c-media span:hover .c-media-qrcode {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+}
+
+.c-link .c-tel {
+    line-height: 50px;
+    letter-spacing: 2px
+}
+
+.c-link .c-tel .c-icon {
+    margin-right: 10px;
+    position: relative;
+    top: -2px
+}
+
+.c-card-row {
+    height: 100%;
+    position: relative;
+    overflow: visible
+}
+
+.c-card {
+    position: relative;
+    background: #49cb81 url(card-ecb35a35.png);
+    color: #fff;
+    line-height: 1.6;
+    width: 180px;
+    height: 200px;
+    padding: 18px 25px 12px;
+    margin-bottom: 20px
+}
+
+.c-card:after {
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    margin-left: -20px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #49cb81
+}
+
+.c-card a {
+    display: block;
+    color: #fff;
+    text-decoration: none
+}
+
+.c-card-row .c-card {
+    float: left;
+    margin-top: 125px;
+    *margin-right: expression(this.nextSibling==null?"0":"92px");
+    opacity: .93
+}
+
+.c-card-row .c-card + .c-card {
+    margin-left: 90px
+}
+
+.c-card.c-card-yellow {
+    background-color: #f9d53b;
+    background-position: 0 0
+}
+
+.c-card.c-card-yellow:after {
+    border-top-color: #f9d53b
+}
+
+.c-card.c-card-green {
+    background-color: #49cb81;
+    background-position: 0 -250px
+}
+
+.c-card.c-card-green:after {
+    border-top-color: #49cb81
+}
+
+.c-card.c-card-navy {
+    background-color: #05c6b1;
+    background-position: 0 -500px
+}
+
+.c-card.c-card-navy:after {
+    border-top-color: #05c6b1
+}
+
+.c-card.c-card-blue {
+    background-color: #4c95e9;
+    background-position: 0 -750px
+}
+
+.c-card.c-card-blue:after {
+    border-top-color: #4c95e9
+}
+
+.c-card.c-card-gray {
+    background-color: #979696;
+    background-position: 0 -1000px
+}
+
+.c-card.c-card-gray:after {
+    border-top-color: #979696
+}
+
+.c-card .c-card-icon {
+    width: 70px;
+    height: 70px;
+    font-size: 65px;
+    line-height: 70px;
+    text-align: left
+}
+
+.c-card .c-card-name {
+    font-size: 23px;
+    margin-top: 70px
+}
+
+.c-card .c-card-note {
+    font-size: 12px;
+    white-space: nowrap
+}
+
+.c-detail {
+    height: 100%
+}
+
+.c-detail-left, .c-detail-right {
+    position: relative;
+    height: 100%;
+    background: #fff;
+    background: hsla(0, 0%, 100%, .9)
+}
+
+.c-detail-left {
+    float: left;
+    width: 230px;
+    z-index: 9
+}
+
+.c-detail-right {
+    margin-left: 235px;
+    color: #5c5c5c
+}
+
+.c-detail-nav {
+    padding-top: 16px
+}
+
+.c-detail-nav li {
+    color: #686868;
+    height: 32px;
+    line-height: 32px;
+    margin: 2px 0;
+    text-align: left;
+    padding: 0 20px;
+    cursor: pointer;
+    -webkit-transition: padding-left .3s, background .3s;
+    transition: padding-left .3s, background .3s
+}
+
+.c-detail-nav li a {
+    display: block;
+    color: inherit;
+    text-decoration: none
+}
+
+.c-detail-nav li.active, .c-detail-nav li:hover {
+    color: #fff;
+    padding-left: 40px
+}
+
+.c-detail-nav li.active {
+    text-align: center;
+    padding-left: 20px
+}
+
+.c-detail-yellow .c-detail-nav li.active, .c-detail-yellow .c-detail-nav li:hover {
+    background: #fcd83a
+}
+
+.c-detail-green .c-detail-nav li.active, .c-detail-green .c-detail-nav li:hover {
+    background: #49cb81
+}
+
+.c-detail-navy .c-detail-nav li.active, .c-detail-navy .c-detail-nav li:hover {
+    background: #05c6b1
+}
+
+.c-detail-blue .c-detail-nav li.active, .c-detail-blue .c-detail-nav li:hover {
+    background: #4c95e9
+}
+
+.c-detail-content {
+    position: relative;
+    font-size: 13px;
+    line-height: 24px;
+    text-align: justify;
+}
+.links
+{
+	text-align-last:justify;
+}
+.c-detail-scroll {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 875px;
+    height: 460px;
+    margin: 40px 20px 33px;
+    padding: 0 20px;
+    overflow-x: hidden;
+    overflow-y: auto
+}
+
+.c-detail-scroll::-webkit-scrollbar {
+    width: 4px
+}
+
+.c-detail-scroll::-webkit-scrollbar-thumb {
+    background: #c2c2c2;
+    border-radius: 10px
+}
+
+.c-detail-scroll::-webkit-scrollbar-track {
+    background: transparent
+}
+
+.c-card-scroll-parent {
+    width: 180px;
+    overflow: hidden
+}
+
+.c-card-scroll-wrapper {
+    width: 720px;
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
+    overflow: hidden
+}
+
+.c-card-scroll-wrapper a {
+    float: left
+}
+
+.c-card-scroll-wrapper .c-card-name {
+    margin-top: 59px
+}
+
+.c-card-scroll-dot {
+    line-height: 18px;
+    margin-left: 1px
+}
+
+.c-card-scroll-dot span {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    line-height: 20px;
+    background: #fff;
+    background: hsla(0, 0%, 100%, .5);
+    border-radius: 50%;
+    margin-right: 7px;
+    -webkit-transition: background .5s;
+    transition: background .5s
+}
+
+.c-card-scroll-0 .c-card-scroll-wrapper {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0)
+}
+
+.c-card-scroll-0 .c-card-scroll-dot span:nth-child(1) {
+    background: #fff
+}
+
+.c-card-scroll-1 .c-card-scroll-wrapper {
+    -webkit-transform: translate3d(-180px, 0, 0);
+    transform: translate3d(-180px, 0, 0)
+}
+
+.c-card-scroll-1 .c-card-scroll-dot span:nth-child(2) {
+    background: #fff
+}
+
+.c-card-scroll-2 .c-card-scroll-wrapper {
+    -webkit-transform: translate3d(-360px, 0, 0);
+    transform: translate3d(-360px, 0, 0)
+}
+
+.c-card-scroll-2 .c-card-scroll-dot span:nth-child(3) {
+    background: #fff
+}
+
+.c-card-scroll-3 .c-card-scroll-wrapper {
+    -webkit-transform: translate3d(-540px, 0, 0);
+    transform: translate3d(-540px, 0, 0)
+}
+
+.c-card-scroll-3 .c-card-scroll-dot span:nth-child(4) {
+    background: #fff
+}
+
+@-webkit-keyframes c-fx-float {
+    1% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+    50% {
+        -webkit-transform: translate3d(0, -20px, 0);
+        transform: translate3d(0, -20px, 0)
+    }
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+@keyframes c-fx-float {
+    1% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+    50% {
+        -webkit-transform: translate3d(0, -20px, 0);
+        transform: translate3d(0, -20px, 0)
+    }
+    to {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+@-webkit-keyframes c-fx-fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 40%, 0);
+        transform: translate3d(0, 40%, 0)
+    }
+    to {
+        opacity: .93;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+@keyframes c-fx-fadeInUp {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 40%, 0);
+        transform: translate3d(0, 40%, 0)
+    }
+    to {
+        opacity: .93;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+@-webkit-keyframes c-fx-fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-5%, 0, 0);
+        transform: translate3d(-5%, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+@keyframes c-fx-fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-5%, 0, 0);
+        transform: translate3d(-5%, 0, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+@-webkit-keyframes c-fx-fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -40%, 0);
+        transform: translate3d(0, -40%, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+@keyframes c-fx-fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -40%, 0);
+        transform: translate3d(0, -40%, 0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+}
+
+@-webkit-keyframes c-fx-fadeInScaleDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1)
+    }
+}
+
+@keyframes c-fx-fadeInScaleDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: scaleY(0);
+        transform: scaleY(0)
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: scaleY(1);
+        transform: scaleY(1)
+    }
+}
+
+.c-card-row .c-card {
+    -webkit-transition: box-shadow .7s, opacity .7s;
+    transition: box-shadow .7s, opacity .7s;
+    -webkit-animation: c-fx-fadeInUp .5s ease-out 0s 1 normal, c-fx-float 5s ease-in-out .5s infinite normal;
+    animation: c-fx-fadeInUp .5s ease-out 0s 1 normal, c-fx-float 5s ease-in-out .5s infinite normal
+}
+
+.c-card-row .c-card:hover {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+    box-shadow: 0 0 15px #fff;
+    opacity: 1
+}
+
+.c-card-row .c-card:nth-child(1) {
+    -webkit-animation-delay: -.3s, .2s;
+    animation-delay: -.3s, .2s;
+    -webkit-animation-duration: .5s, 5s;
+    animation-duration: .5s, 5s
+}
+
+.c-card-row .c-card:nth-child(2) {
+    -webkit-animation-delay: -.2s, .3s;
+    animation-delay: -.2s, .3s;
+    -webkit-animation-duration: .5s, 4s;
+    animation-duration: .5s, 4s
+}
+
+.c-card-row .c-card:nth-child(3) {
+    -webkit-animation-delay: -.1s, .4s;
+    animation-delay: -.1s, .4s;
+    -webkit-animation-duration: .5s, 4.5s;
+    animation-duration: .5s, 4.5s
+}
+
+.c-card-row .c-card:nth-child(4) {
+    -webkit-animation-delay: 0s, .5s;
+    animation-delay: 0s, .5s;
+    -webkit-animation-duration: .5s, 5.5s;
+    animation-duration: .5s, 5.5s
+}
+
+.c-detail-left {
+    -webkit-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    -webkit-animation: c-fx-fadeInScaleDown .3s ease-out 0s 1 normal;
+    animation: c-fx-fadeInScaleDown .3s ease-out 0s 1 normal
+}
+
+.c-detail-right {
+    -webkit-animation: c-fx-fadeInRight .3s ease .2s 1 normal;
+    animation: c-fx-fadeInRight .3s ease .2s 1 normal;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards
+}
+
+.c-detail-nav li {
+    -webkit-animation: c-fx-fadeInDown .2s ease-out 0s 1 normal;
+    animation: c-fx-fadeInDown .2s ease-out 0s 1 normal;
+    -webkit-animation-fill-mode: backwards;
+    animation-fill-mode: backwards
+}
+
+.c-detail-nav li:nth-child(1) {
+    -webkit-animation-delay: .2s;
+    animation-delay: .2s
+}
+
+.c-detail-nav li:nth-child(2) {
+    -webkit-animation-delay: .3s;
+    animation-delay: .3s
+}
+
+.c-detail-nav li:nth-child(3) {
+    -webkit-animation-delay: .4s;
+    animation-delay: .4s
+}
+
+.c-detail-nav li:nth-child(4) {
+    -webkit-animation-delay: .5s;
+    animation-delay: .5s
+}
+
+.c-detail-nav li:nth-child(5) {
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s
+}
+
+.c-detail-nav li:nth-child(6) {
+    -webkit-animation-delay: .7s;
+    animation-delay: .7s
+}
+
+@-webkit-keyframes c-fx-slogen {
+    0% {
+        opacity: 0;
+        -webkit-filter: blur(10px);
+        filter: blur(10px);
+        -webkit-transform: scale(2.5);
+        transform: scale(2.5)
+    }
+    to {
+        opacity: 1;
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+@keyframes c-fx-slogen {
+    0% {
+        opacity: 0;
+        -webkit-filter: blur(10px);
+        filter: blur(10px);
+        -webkit-transform: scale(2.5);
+        transform: scale(2.5)
+    }
+    to {
+        opacity: 1;
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        -webkit-transform: scale(1);
+        transform: scale(1)
+    }
+}
+
+.c-slogen {
+    text-align: center;
+    font-family: STFangsong, FangSong;
+    color: #fff;
+    font-size: 45px;
+    line-height: 400px;
+    letter-spacing: 15px;
+    text-shadow: 0 0 5px rgba(0, 0, 0, .6);
+    overflow: hidden
+}
+
+.c-slogen span {
+    display: inline-block;
+    -webkit-animation: c-fx-slogen 1.5s ease 0s 1 normal;
+    animation: c-fx-slogen 1.5s ease 0s 1 normal
+}
+
+input::-webkit-input-placeholder {
+    color: hsla(0, 0%, 100%, .9)
+}
+
+input:-ms-input-placeholder {
+    color: hsla(0, 0%, 100%, .9)
+}
+
+:-moz-placeholder, ::-moz-placeholder {
+    color: hsla(0, 0%, 100%, .9)
+}
+
+.c-detail-content-wrapper a {
+    color: inherit;
+    text-decoration: none
+}
+
+.c-detail-content-wrapper a:hover {
+    text-decoration: underline
+}
+
+.c-detail-content-list {
+    font-size: 14px
+}
+
+.c-detail-content-list li {
+    list-style-type: disc;
+    margin: 0 0 1.1em 1em
+}
+
+.c-detail-content-list img {
+    margin: .5em 0
+}
+
+.c-detail-content-qa {
+    font-size: 14px
+}
+
+.c-detail-content-qa li {
+    margin-bottom: 1em
+}
+
+.c-detail-content-qa .c-detail-content-top-space {
+    margin-top: .6em
+}
+
+.c-detail-content-qa .c-detail-content-q {
+    font-weight: 700
+}
+
+.c-detail-content-qa .c-detail-content-q:before {
+    content: 'Q';
+    color: #fff;
+    font-size: 12px;
+    background: #ff5400;
+    border-radius: 10px;
+    padding: 3px 3px 1px;
+    margin-right: 5px
+}
+
+.c-detail-content-qa .c-detail-content-a {
+    line-height: 20px
+}
+
+.c-detail-content-qa .c-detail-content-a:before {
+    content: 'A';
+    line-height: 24px;
+    color: #fff;
+    font-size: 12px;
+    background: #56c000;
+    border-radius: 10px;
+    padding: 3px 3px 1px 4px;
+    margin-right: 5px
+}
+
+.c-detail-content-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 29px;
+    padding-left: 14px;
+    border-left: 5px solid #fcda46
+}
+
+.c-detail-yellow .c-detail-content-title {
+    border-color: #fcda46
+}
+
+.c-detail-green .c-detail-content-title {
+    border-color: #49cb81
+}
+
+.c-detail-navy .c-detail-content-title {
+    border-color: #05c6b1
+}
+
+.c-detail-blue .c-detail-content-title {
+    border-color: #4c95e9
+}
+
+.c-detail-content-title-note {
+    float: right;
+    text-align: right;
+    font-size: 13px;
+    color: #666
+}
+
+.c-detail-content-imgbox {
+    height: 400px;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, .1);
+    overflow: auto;
+    cursor: default
+}
+
+.c-detail-content-imgbox:hover .c-detail-content-img-mask {
+    text-shadow: 0 0 5px rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, .2)
+}
+
+.c-detail-content-img {
+    position: relative;
+    line-height: 0;
+    max-height: 65%;
+    border-radius: 4px 4px 0 0;
+    overflow: hidden
+}
+
+.c-detail-content-img img {
+    width: 100%
+}
+
+.c-detail-content-img .c-detail-content-img-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+    background: rgba(0, 0, 0, .4);
+    -webkit-transition: text-shadow .5s, background .5s;
+    transition: text-shadow .5s, background .5s
+}
+
+.c-detail-content-img .c-detail-content-img-mask .c-icon {
+    display: inline-block;
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 80px
+}
+
+.c-detail-content-text {
+    position: relative;
+    color: #666;
+    padding: 30px 20px 0
+}
+
+.c-detail-content-text:before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff
+}
