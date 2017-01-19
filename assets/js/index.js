@@ -1,4 +1,5 @@
 $(function () {
+	$("body").prepend('<ul class="cb-slideshow"><li><span>Image 01</span></li><li><span>Image 02</span></li><li><span>Image 03</span></li><li><span>Image 04</span></li><li><span>Image 05</span></li><li><span>Image 06</span></li></ul>');
 	//加载Head
 	$(".c-head").load("head.html",function(){
 		
@@ -145,6 +146,42 @@ $(function () {
 			var target = event.target || event.srcElement,
 				link = target.src ? target.parentNode : target,
 				options = {index: link, event: event,container: '#blueimp-gallery5'},
+				links = this.getElementsByTagName('a');
+			blueimp.Gallery(links, options);
+		};
+	}
+	
+	if(document.getElementById('links6'))
+	{
+		document.getElementById('links6').onclick = function (event) {
+			event = event || window.event;
+			var target = event.target || event.srcElement,
+				link = target.src ? target.parentNode : target,
+				options = {index: link, event: event,container: '#blueimp-gallery6'},
+				links = this.getElementsByTagName('a');
+			blueimp.Gallery(links, options);
+		};
+	}
+	
+	if(document.getElementById('links7'))
+	{
+		document.getElementById('links7').onclick = function (event) {
+			event = event || window.event;
+			var target = event.target || event.srcElement,
+				link = target.src ? target.parentNode : target,
+				options = {index: link, event: event,container: '#blueimp-gallery7'},
+				links = this.getElementsByTagName('a');
+			blueimp.Gallery(links, options);
+		};
+	}
+	
+	if(document.getElementById('links8'))
+	{
+		document.getElementById('links8').onclick = function (event) {
+			event = event || window.event;
+			var target = event.target || event.srcElement,
+				link = target.src ? target.parentNode : target,
+				options = {index: link, event: event,container: '#blueimp-gallery8'},
 				links = this.getElementsByTagName('a');
 			blueimp.Gallery(links, options);
 		};
