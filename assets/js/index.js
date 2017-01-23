@@ -9,9 +9,7 @@ $(function () {
 		var href = hrefs[hrefs.length-1];
 		
 		var nums,num1,num2;
-		alert(href);
-		alert(href.split(".html").length);
-		if(href.split(".html").length == 0 || href.split(".html")[0] == "index")
+		if(href.split(".html").length == 1 || href.split(".html")[0] == "index")
 		{
 			num1 = "home"
 		}
