@@ -632,7 +632,8 @@ body {
     float: left;
     margin-top: 125px;
     *margin-right: expression(this.nextSibling==null?"0":"92px");
-    opacity: .93
+    opacity: .93;
+    border-radius: 15px;
 }
 
 .c-card-row .c-card + .c-card {
