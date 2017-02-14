@@ -641,21 +641,21 @@ body {
 }
 
 .c-card.c-card-yellow {
-    background-color: #f9d53b;
+    background-color: #c3b495;
     background-position: 0 0
 }
 
 .c-card.c-card-yellow:after {
-    border-top-color: #f9d53b
+    border-top-color: #c3b495
 }
 
 .c-card.c-card-green {
-    background-color: #49cb81;
+    background-color: #5a3e30;
     background-position: 0 -250px
 }
 
 .c-card.c-card-green:after {
-    border-top-color: #49cb81
+    border-top-color: #5a3e30
 }
 
 .c-card.c-card-navy {
@@ -668,21 +668,21 @@ body {
 }
 
 .c-card.c-card-blue {
-    background-color: #4c95e9;
+    background-color: #cf8840;
     background-position: 0 -750px
 }
 
 .c-card.c-card-blue:after {
-    border-top-color: #4c95e9
+    border-top-color: #cf8840
 }
 
 .c-card.c-card-gray {
-    background-color: #979696;
+    background-color: #e9dadd;
     background-position: 0 -1000px
 }
 
 .c-card.c-card-gray:after {
-    border-top-color: #979696
+    border-top-color: #e9dadd
 }
 
 .c-card .c-card-icon {
