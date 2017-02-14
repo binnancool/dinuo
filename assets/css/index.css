@@ -659,12 +659,12 @@ body {
 }
 
 .c-card.c-card-navy {
-    background-color: #05c6b1;
+    background-color: #89949a;
     background-position: 0 -500px
 }
 
 .c-card.c-card-navy:after {
-    border-top-color: #05c6b1
+    border-top-color: #89949a
 }
 
 .c-card.c-card-blue {
