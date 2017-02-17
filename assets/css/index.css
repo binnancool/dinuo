@@ -1459,6 +1459,18 @@ input:-ms-input-placeholder {
     width: 100%
 }
 
+.c-detail-content-img-2-2 {
+    position: relative;
+    line-height: 0;
+    max-height: 65%;
+    border-radius: 4px 4px 0 0;
+    overflow: hidden
+}
+
+.c-detail-content-img-2-2 img {
+    
+}
+
 .c-detail-content-img .c-detail-content-img-mask {
     position: absolute;
     top: 0;
