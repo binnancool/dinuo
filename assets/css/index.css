@@ -925,15 +925,15 @@ body {
 }
 
 .c-detail-green .c-detail-nav li.active, .c-detail-green .c-detail-nav li:hover {
-    background: #49cb81
+    background: #ff9700
 }
 
 .c-detail-navy .c-detail-nav li.active, .c-detail-navy .c-detail-nav li:hover {
-    background: #05c6b1
+    background: #ff9700
 }
 
 .c-detail-blue .c-detail-nav li.active, .c-detail-blue .c-detail-nav li:hover {
-    background: #4c95e9
+    background: #ff9700
 }
 
 .c-detail-content {
@@ -1411,19 +1411,19 @@ input:-ms-input-placeholder {
 }
 
 .c-detail-yellow .c-detail-content-title {
-    border-color: #fcda46
+    border-color: #ff9700
 }
 
 .c-detail-green .c-detail-content-title {
-    border-color: #49cb81
+    border-color: #ff9700
 }
 
 .c-detail-navy .c-detail-content-title {
-    border-color: #05c6b1
+    border-color: #ff9700
 }
 
 .c-detail-blue .c-detail-content-title {
-    border-color: #4c95e9
+    border-color: #ff9700
 }
 
 .c-detail-content-title-note {
