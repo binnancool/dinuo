@@ -258,7 +258,7 @@ body {
 .c-foot {
     bottom: 0;
     height: 120px;
-    border-top: 3px solid #07c7b2;
+    border-top: 3px solid #FF9700;
     background: #000;
     background: rgba(0, 0, 0, .56)
 }
@@ -331,7 +331,7 @@ body {
 }
 
 .c-nav li.active, .c-nav li.hover {
-    border-bottom: 3px solid #feba01
+    border-bottom: 3px solid #FF9700
 }
 
 .c-nav li.active a, .c-nav li.hover a {
@@ -426,7 +426,7 @@ body {
     line-height: 27px;
     padding: 0 16px;
     margin: 0 1px;
-    background: #07c7b2;
+    background: #FF9700;
     border-radius: 0 0 4px 4px;
     -webkit-transition: background .3s;
     transition: background .3s
@@ -641,39 +641,146 @@ body {
 }
 
 .c-card.c-card-yellow {
-    background-color: #c3b495;
+    background-color: #A1948E;
     background-position: 0 0
 }
 
 .c-card.c-card-yellow:after {
-    border-top-color: #c3b495
+    border-top-color: #A1948E
+}
+
+.c-card.c-card-yellow1 {
+    background-color: #F1E2C5;
+    background-position: 0 0
+}
+
+.c-card.c-card-yellow1:after {
+    border-top-color: #F1E2C5
+}
+
+.c-card.c-card-yellow2 {
+    background-color: #ECE0D2;
+    background-position: 0 0
+}
+
+.c-card.c-card-yellow2:after {
+    border-top-color: #ECE0D2
+}
+
+.c-card.c-card-yellow3 {
+    background-color: #E2D8BD;
+    background-position: 0 0
+}
+
+.c-card.c-card-yellow3:after {
+    border-top-color: #E2D8BD
 }
 
 .c-card.c-card-green {
-    background-color: #5a3e30;
+    background-color: #A8BE7E;
     background-position: 0 -250px
 }
 
 .c-card.c-card-green:after {
-    border-top-color: #5a3e30
+    border-top-color: #A8BE7E
+}
+
+.c-card.c-card-green1 {
+    background-color: #94A980;
+    background-position: 0 -250px
+}
+
+.c-card.c-card-green1:after {
+    border-top-color: #94A980
+}
+
+.c-card.c-card-green2 {
+    background-color: #B9C297;
+    background-position: 0 -250px
+}
+
+.c-card.c-card-green2:after {
+    border-top-color: #B9C297
+}
+
+.c-card.c-card-green3 {
+    background-color: #BDC6A9;
+    background-position: 0 -250px
+}
+
+.c-card.c-card-green3:after {
+    border-top-color: #BDC6A9
 }
 
 .c-card.c-card-navy {
-    background-color: #89949a;
+    background-color: #CFCFC3;
     background-position: 0 -500px
 }
 
 .c-card.c-card-navy:after {
-    border-top-color: #89949a
+    border-top-color: #CFCFC3
 }
 
+.c-card.c-card-navy1 {
+    background-color: #CECAC1;
+    background-position: 0 -500px
+}
+
+.c-card.c-card-navy1:after {
+    border-top-color: #CECAC1
+}
+
+.c-card.c-card-navy2 {
+    background-color: #D2CDC9;
+    background-position: 0 -500px
+}
+
+.c-card.c-card-navy2:after {
+    border-top-color: #D2CDC9
+}
+
+.c-card.c-card-navy3 {
+    background-color: #D3CDC1;
+    background-position: 0 -500px
+}
+
+.c-card.c-card-navy3:after {
+    border-top-color: #D3CDC1
+}
 .c-card.c-card-blue {
-    background-color: #cf8840;
+    background-color: #A19589;
     background-position: 0 -750px
 }
 
 .c-card.c-card-blue:after {
-    border-top-color: #cf8840
+    border-top-color: #A19589
+}
+
+.c-card.c-card-blue1 {
+    background-color: #A5AAAD;
+    background-position: 0 -750px
+}
+
+.c-card.c-card-blue1:after {
+    border-top-color: #A5AAAD
+}
+
+.c-card.c-card-blue2 {
+    background-color: #A0A2A1;
+    background-position: 0 -750px
+}
+
+.c-card.c-card-blue2:after {
+    border-top-color: #A0A2A1
+}
+
+.c-card.c-card-blue3 {
+    background-color: #94958F;
+    background-position: 0 -750px
+}
+
+.c-card.c-card-blue3:after {
+    border-top-color: #94958F
 }
 
 .c-card.c-card-gray {
@@ -683,6 +790,33 @@ body {
 
 .c-card.c-card-gray:after {
     border-top-color: #e9dadd
+}
+
+.c-card.c-card-gray1 {
+    background-color: #DEE4D6;
+    background-position: 0 -1000px
+}
+
+.c-card.c-card-gray1:after {
+    border-top-color: #DEE4D6
+}
+
+.c-card.c-card-gray2 {
+    background-color: #C6CEC1;
+    background-position: 0 -1000px
+}
+
+.c-card.c-card-gray2:after {
+    border-top-color: #C6CEC1
+}
+
+.c-card.c-card-gray3 {
+    background-color: #A8B29A;
+    background-position: 0 -1000px
+}
+
+.c-card.c-card-gray3:after {
+    border-top-color: #A8B29A
 }
 
 .c-card .c-card-icon {
