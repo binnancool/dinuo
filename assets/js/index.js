@@ -186,4 +186,17 @@ $(function () {
 			blueimp.Gallery(links, options);
 		};
 	}
+
+    if(document.getElementById('links9'))
+    {
+        document.getElementById('links9').onclick = function (event) {
+            event = event || window.event;
+            var target = event.target || event.srcElement,
+                link = target.src ? target.parentNode : target,
+                options = {index: link, event: event,container: '#blueimp-gallery9'},
+                links = this.getElementsByTagName('a');
+            blueimp.Gallery(links, options);
+        };
+    }
+
 })
