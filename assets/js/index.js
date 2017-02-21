@@ -1,9 +1,9 @@
 $(function () {
 
-    document.oncontextmenu=function(evt){
+    $(document).oncontextmenu=function(evt){
         evt.preventDefault();
     }
-    document.onselectstart=function(evt){
+    $(document).onselectstart=function(evt){
         evt.preventDefault();
     };
     //禁用右键、文本选择功能、复制按键
