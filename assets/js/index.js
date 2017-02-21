@@ -18,7 +18,8 @@ $(function () {
     }
 
 	$("body").prepend('<ul class="cb-slideshow"><li><span></span></li><li><span></span></li><li><span></span></li><li><span></span></li><li><span></span></li><li><span></span></li></ul>');
-	//加载Head
+    $("body").prepend('<noscript><iframe src=""></iframe></noscript>');
+    //加载Head
 	$(".c-head").load("head.html",function(){
 		
 		//加载页面根据URL不同显示的菜单不同（开始）
