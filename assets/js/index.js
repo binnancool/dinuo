@@ -1,4 +1,23 @@
 $(function () {
+
+    //禁用右键、文本选择功能、复制按键
+    $(document).bind("contextmenu",function(){return false;});
+    $(document).bind("selectstart",function(){return false;});
+    $(document).keydown(function(){return key(arguments[0])});
+    //按键时提示警告
+    function key(e){
+        var keynum;
+        if(window.event){
+            keynum = e.keyCode; // IE
+        }else if(e.which){
+            keynum = e.which; // Netscape/Firefox/Opera
+        }
+        if(keynum == 17){
+            alert("禁止复制内容！");
+            return false;
+        }
+    }
+
 	$("body").prepend('<ul class="cb-slideshow"><li><span></span></li><li><span></span></li><li><span></span></li><li><span></span></li><li><span></span></li><li><span></span></li></ul>');
 	//加载Head
 	$(".c-head").load("head.html",function(){
